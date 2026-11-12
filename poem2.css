@@ -1,0 +1,39 @@
+/* 1. 整頁背景設為粉黃色 */
+body {
+    background-color: #FFFF99; /* 粉黃色 */
+    text-align: center;
+    font-family: "Microsoft JhengHei", sans-serif;
+    margin: 20px;
+}
+
+/* 2. 詩的標題設為: 紅色、36點字 (36pt) */
+h1 {
+    color: red;
+    font-size: 36pt;
+    margin-bottom: 20px;
+}
+
+/* 2. 詩的內容設為: 棕色、24點字 (24pt) */
+.poem-content {
+    color: brown;
+    font-size: 24pt;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* 3. 頁面中央放1楨劉禹錫的畫像圖 (寬度200px，深棕色圖框線3px，圓角20px) */
+.poet-img {
+    width: 200px;
+    height: auto;
+    border: 3px solid #4A2E16; /* 深棕色 */
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+/* 返回按鈕 */
+.back-link {
+    font-size: 16pt;
+    text-decoration: none;
+    color: #333;
+}
